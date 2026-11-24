@@ -11,15 +11,39 @@
   animation: floatPhoto 4s ease-in-out infinite;
 }
 
+
 .hero-photo {
   width: 320px;
-  height: 400px;
+  height: 320px;
   object-fit: cover;
-  object-position: top center;
-  border-radius: 20px;
+  object-position: center;
+  border-radius: 50%;
   border: 5px solid var(--bg);
   display: block;
 }
+
+.photo-container {
+  width: 336px;
+  height: 336px;
+  border-radius: 50%;
+  padding: 8px;
+  background: var(--gradient);
+  box-shadow: 0 0 50px rgba(139, 92, 246, 0.35);
+  animation: floatPhoto 4s ease-in-out infinite;
+}
+
+@media (max-width: 700px) {
+  .photo-container {
+    width: 276px;
+    height: 276px;
+  }
+
+  .hero-photo {
+    width: 260px;
+    height: 260px;
+  }
+}
+
 
 @keyframes floatPhoto {
   0%, 100% {
