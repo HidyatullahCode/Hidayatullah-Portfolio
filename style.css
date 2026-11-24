@@ -982,7 +982,7 @@ button {
   }
 }
 
-@media (max-width: 700px) {
+{/* @media (max-width: 700px) {
   .nav-container {
     height: 68px;
   }
@@ -1098,7 +1098,60 @@ button {
     flex-direction: column;
     text-align: center;
   }
+} */}
+
+
+
+@media (max-width: 700px) {
+  .hero-visual {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 20px;
+    padding: 0;
+  }
+
+  .photo-container {
+    width: 250px;
+    height: 250px;
+    padding: 6px;
+    border-radius: 50%;
+  }
+
+  .hero-photo {
+    width: 238px;
+    height: 238px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .floating-card {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .card-one {
+    top: 5%;
+    right: -5px;
+  }
+
+  .card-two {
+    bottom: 5%;
+    left: -5px;
+  }
+
+  .orbit {
+    display: none;
+  }
 }
+
+
+
+
+
+
 
 @media (max-width: 400px) {
   .about-details {
