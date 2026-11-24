@@ -1,18 +1,18 @@
 export const personalInfo = {
-  name: "Hidayatullah",
+  name: "Hidayatullah Zadran",
   title: "Full-Stack Web Developer",
-  location: "Afghanistan",
+  location: "Afghanistan Kabul",
   education: "Computer Science Student",
   description:
     "I am a Computer Science student and web developer who enjoys building modern, responsive and user-friendly websites. I am continuously learning new technologies and improving my development skills.",
-  email: "",
+  email: "hidyatullah602@gmail.com",
   github: "https://github.com/HidyatullahCode",
   availability: "Open to learning and new opportunities"
 };
 
 export const skills = [
   { name: "HTML5", level: "Frontend", icon: "🌐" },
-  { name: "CSS3", level: "Frontend", icon: "🎨" },
+  { name: "CSS", level: "Frontend", icon: "🎨" },
   { name: "JavaScript", level: "Frontend", icon: "⚡" },
   { name: "React.js", level: "Frontend", icon: "⚛️" },
   { name: "Python", level: "Programming", icon: "🐍" },
@@ -59,7 +59,7 @@ export const journey = [
     year: "My Education",
     title: "Computer Science",
     description:
-      "Studying Computer Science and developing my understanding of programming and technology."
+      "Studying Computer Science and I like to develop the best and responsive websites."
   },
   {
     year: "Frontend Development",
