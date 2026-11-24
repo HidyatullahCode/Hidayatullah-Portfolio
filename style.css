@@ -924,6 +924,108 @@ button {
 
 
 
+@media (max-width: 700px) {
+
+  /* HERO SECTION */
+
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    gap: 20px;
+  }
+
+  .hero-content {
+    order: 1;
+  }
+
+  .hero-visual {
+    order: 2;
+    min-height: 440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons,
+  .hero-socials {
+    justify-content: center;
+  }
+
+  /* PROFILE PICTURE */
+
+  .profile-glow {
+    width: 290px;
+    height: 290px;
+  }
+
+  .profile-avatar {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ANIMATION CIRCLES */
+
+  .orbit-one {
+    width: 390px;
+    height: 390px;
+  }
+
+  .orbit-two {
+    width: 430px;
+    height: 430px;
+  }
+
+  /* NAVIGATION */
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  /* ABOUT SECTION */
+
+  .about-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* EXPERIENCE */
+
+  .experience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* PROJECTS */
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* FLOATING CARDS */
+
+  .floating-card {
+    font-size: 12px;
+  }
+
+}
+
+
+
+
+
 
 
 
