@@ -1,3 +1,43 @@
+/* PROFILE PHOTO ANIMATION */
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 25px;
+  background: var(--gradient);
+  box-shadow: 0 0 50px rgba(139, 92, 246, 0.35);
+  animation: floatPhoto 4s ease-in-out infinite;
+}
+
+.hero-photo {
+  width: 320px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  border: 5px solid var(--bg);
+  display: block;
+}
+
+@keyframes floatPhoto {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-photo {
+    width: 260px;
+    height: 330px;
+  }
+}
+
 /* ==============================
    1. GLOBAL SETTINGS
 ============================== */
