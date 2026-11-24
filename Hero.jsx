@@ -56,7 +56,6 @@ function Hero() {
       </div>
 
       <div className="hero-visual">
-
         <div className="photo-container">
           <img
             src="/profile-photo.jpg"
@@ -75,7 +74,6 @@ function Hero() {
 
         <div className="orbit orbit-one"></div>
         <div className="orbit orbit-two"></div>
-
       </div>
 
       <a href="#about" className="scroll-down">
