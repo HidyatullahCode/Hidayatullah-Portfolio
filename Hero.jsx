@@ -1,3 +1,4 @@
+
 import React from "react";
 import { personalInfo } from "./data.js";
 
@@ -18,9 +19,9 @@ function Hero() {
         </h1>
 
         <h2>
-          A Full-Stack <span className="gradient-text">
+          A Full-Stack{" "}
+          <span className="gradient-text">
             Web Developer Who Loves Creating Websites
-            {/* {personalInfo.title} */}
           </span>
         </h2>
 
@@ -54,15 +55,15 @@ function Hero() {
         </div>
       </div>
 
-   <div className="hero-visual">
-  <div className="photo-container">
-    <img
-      src="/profile-photo.jpg"
-      alt="Hidayatullah Zadran"
-      className="hero-photo"
-    />
-  </div>
-</div>
+      <div className="hero-visual">
+
+        <div className="photo-container">
+          <img
+            src="/profile-photo.jpg"
+            alt="Hidayatullah"
+            className="hero-photo"
+          />
+        </div>
 
         <div className="floating-card card-one">
           <span>⚛️</span> React Developer
@@ -74,6 +75,7 @@ function Hero() {
 
         <div className="orbit orbit-one"></div>
         <div className="orbit orbit-two"></div>
+
       </div>
 
       <a href="#about" className="scroll-down">
