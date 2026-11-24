@@ -1,23 +1,16 @@
-
 import React from "react";
 import { personalInfo } from "./data.js";
-import profilePhoto from "./profile-photo.jpg";
 
 function Hero() {
   return (
     <section className="hero section-container" id="home">
-
-      {/* LEFT SIDE */}
       <div className="hero-content">
-
         <div className="availability">
           <span className="status-dot"></span>
           {personalInfo.availability}
         </div>
 
-        <p className="hero-greeting">
-          HELLO, WORLD! I'M
-        </p>
+        <p className="hero-greeting">HELLO, WORLD! I'M</p>
 
         <h1>
           {personalInfo.name}
@@ -25,9 +18,9 @@ function Hero() {
         </h1>
 
         <h2>
-          A Full-Stack{" "}
-          <span className="gradient-text">
+          A Full-Stack <span className="gradient-text">
             Web Developer Who Loves Creating Websites
+            {/* {personalInfo.title} */}
           </span>
         </h2>
 
@@ -57,26 +50,20 @@ function Hero() {
           </a>
 
           <span>•</span>
-
           <span>{personalInfo.location}</span>
         </div>
-
       </div>
 
-      {/* RIGHT SIDE - PROFILE PHOTO */}
-      <div className="hero-visual">
+   <div className="hero-visual">
+  <div className="photo-container">
+    <img
+      src="/profile-photo.jpg"
+      alt="Hidayatullah Zadran"
+      className="hero-photo"
+    />
+  </div>
+</div>
 
-        <div className="photo-container">
-          <img
-            src={profilePhoto}
-            alt="Hidayatullah"
-            className="hero-photo"
-            loading="eager"
-            decoding="async"
-          />
-        </div>
-
-        {/* FLOATING CARDS */}
         <div className="floating-card card-one">
           <span>⚛️</span> React Developer
         </div>
@@ -85,17 +72,13 @@ function Hero() {
           <span>💻</span> Creative Coder
         </div>
 
-        {/* ANIMATED ORBITS */}
         <div className="orbit orbit-one"></div>
         <div className="orbit orbit-two"></div>
-
       </div>
 
-      {/* SCROLL LINK */}
       <a href="#about" className="scroll-down">
         ↓ Scroll to explore
       </a>
-
     </section>
   );
 }
