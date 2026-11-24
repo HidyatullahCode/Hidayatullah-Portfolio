@@ -1,6 +1,6 @@
-/* PROFILE PHOTO ANIMATION */
+/* /* PROFILE PHOTO ANIMATION */
 
-.photo-container {
+/* .photo-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +54,14 @@
     transform: translateY(-12px);
   }
 }
+
+@media (max-width: 700px) {
+  .hero-photo {
+    width: 260px;
+    height: 330px;
+  }
+} */ */
+
 
 @media (max-width: 700px) {
   .hero-photo {
