@@ -54,12 +54,15 @@ function Hero() {
         </div>
       </div>
 
-      <div className="hero-visual">
-        <div className="profile-glow">
-          <div className="profile-avatar">
-            H<span>.</span>
-          </div>
-        </div>
+   <div className="hero-visual">
+  <div className="photo-container">
+    <img
+      src="/profile-photo.jpg"
+      alt="Hidayatullah Zadran"
+      className="hero-photo"
+    />
+  </div>
+</div>
 
         <div className="floating-card card-one">
           <span>⚛️</span> React Developer
