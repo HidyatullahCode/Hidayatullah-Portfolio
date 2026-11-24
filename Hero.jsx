@@ -20,7 +20,7 @@ function Hero() {
         <h2>
           A Full-Stack <span className="gradient-text">
             Web Developer Who Loves Creating Websites
-            /* {personalInfo.title} */
+            {/* {personalInfo.title} */}
           </span>
         </h2>
 
