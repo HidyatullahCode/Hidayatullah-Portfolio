@@ -18,7 +18,8 @@ function Hero() {
         </h1>
 
         <h2>
-          A Passionate <span className="gradient-text">
+          A Full-Stack <span className="gradient-text">
+            Web Developer Who Loves Creating Websites
             {personalInfo.title}
           </span>
         </h2>
